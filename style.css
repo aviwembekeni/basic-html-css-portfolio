@@ -165,3 +165,18 @@ footer {
   font-weight: 900;
   font-style: italic;
 }
+
+@media only screen and (max-width: 600px) {
+  .col {
+    width: 100%;
+    padding: 0;
+    margin: 2px 2px;
+  }
+
+  @media only screen and (max-width: 900px) and (min-width: 600px) {
+    .col {
+      float: left;
+      width: 45%;
+    }
+  }
+}
