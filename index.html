@@ -3,28 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="roboto-bold-italic">
         <a href="#about">About Me</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main>
+    <main class="roboto-medium-italic">
       <section id="about">
         <h1>Aviwe Ngqukumba</h1>
         <p>Software Developer</p>
         <img src="images/profile.jpg" alt="" />
-        <h2>About Me</h2>
-        <p>
-          I'm a software developer with a passion for building web
-          applications...
-        </p>
+        <div class="about-me card">
+          <h2>About Me</h2>
+          <p>
+            <q
+              >Hello! I’m Aviwe Ngqukumba, a dedicated and passionate software
+              developer specializing in JavaScript. With more than 3 years of
+              experience in the field, I’ve honed my skills in crafting dynamic,
+              user-friendly web applications that meet and exceed expectations.
+              My journey began with a fascination for how websites work, leading
+              me to dive deep into the world of coding. I quickly discovered my
+              affinity for JavaScript, captivated by its versatility and the
+              power it holds in shaping the modern web. Since then, I’ve made it
+              my mission to master this language, keeping up with the latest
+              frameworks and technologies such as React, Node.js, Graphql,
+              ExpressJS, ApolloJS e.t.c. What sets me apart is not just my
+              expertise in JavaScript, but my commitment to understanding the
+              core needs of projects and pushing the boundaries of what’s
+              possible. Whether it’s developing seamless front-end interfaces or
+              robust back-end solutions, I approach every project with a
+              problem-solving mindset, aiming for efficiency and innovation</q
+            >
+          </p>
+        </div>
       </section>
       <section id="projects">
         <div class="projects">
@@ -57,6 +81,41 @@
                 <h3>Developer Connector</h3>
                 <img
                   src="images/pro2.jpg"
+                  alt=""
+                  width="200px"
+                  height="200px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <h3>Face Detecion App</h3>
+                <img
+                  src="images/pro4.png"
+                  alt=""
+                  width="200px"
+                  height="200px"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <h3>Github Api Visualiser</h3>
+                <img
+                  src="images/pro5.jpg"
+                  alt=""
+                  width="200px"
+                  height="200px"
+                />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <h3>Shoe Catalogue</h3>
+                <img
+                  src="images/pro6.jpg"
                   alt=""
                   width="200px"
                   height="200px"
