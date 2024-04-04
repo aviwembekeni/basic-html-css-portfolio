@@ -68,6 +68,11 @@ section {
   text-align: center;
   background-color: #f1f1f1;
   color: black;
+  border-radius: 2rem;
+}
+
+.card > img {
+  border-radius: 2rem;
 }
 
 /* Clear floats after the columns */
