@@ -192,6 +192,11 @@ footer {
   color: white;
 }
 
+.fa-github {
+  background-color: #1f2328;
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .col {
     width: 45%;
