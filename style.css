@@ -76,6 +76,11 @@ section {
   background-color: #f1f1f1;
   color: black;
   border-radius: 2rem;
+  transition: background-color 2s ease-out 100ms;
+}
+
+.card:hover {
+  background-color: tomato;
 }
 
 .card > img {
