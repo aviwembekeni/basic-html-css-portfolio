@@ -37,6 +37,11 @@ section {
   margin-bottom: 20px;
 }
 
+.section-header {
+  text-align: center;
+  text-decoration: underline;
+}
+
 #about,
 #contact {
   text-align: center;
